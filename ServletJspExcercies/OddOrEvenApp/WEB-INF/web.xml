@@ -1,0 +1,10 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+    <servlet>
+        <servlet-name>OddEvenServlet</servlet-name>
+        <servlet-class>com.org.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OddEvenServlet</servlet-name>
+        <url-pattern>/OddOrEven</url-pattern>
+    </servlet-mapping>
+</web-app>
